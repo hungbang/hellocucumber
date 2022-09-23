@@ -3,7 +3,6 @@ pipeline{
     agent any
 
     environment {
-        REPORTS_TARGET = [reportDir: 'test-output/extent-reports', reportFiles: '*.html', reportLink: 'Extent Reports']
     }
 
     stages {
@@ -39,7 +38,9 @@ pipeline{
 
     post {
         always {
-            publishHTML (target: ${REPORTS_TARGET})
+            publishHTML (target: [
+            reportDir: 'test-output/extent-reports', reportFiles: '*.html', reportLink: 'Extent Reports'
+            ])
         }
     }
 
