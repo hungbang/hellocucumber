@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hellocucumber.RunCucumberTest" time="0.358" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mr932/Evizi/Tests/hellocucumber/target/test-classes:/Users/mr932/Evizi/Tests/hellocucumber/target/classes:/Users/mr932/.m2/repository/io/cucumber/cucumber-java/7.5.0/cucumber-java-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/cucumber-core/7.5.0/cucumber-core-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/cucumber-gherkin/7.5.0/cucumber-gherkin-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.5.0/cucumber-gherkin-messages-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/mr932/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/mr932/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/mr932/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/mr932/.m2/repository/io/cucumber/datatable/7.5.0/datatable-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/cucumber-plugin/7.5.0/cucumber-plugin-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/docstring/7.5.0/docstring-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/Users/mr932/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/mr932/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mr932/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.5.0/cucumber-junit-platform-engine-7.5.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/Users/mr932/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-suite/1.9.0/junit-platform-suite-1.9.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.0/junit-platform-suite-api-1.9.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.0/junit-platform-suite-engine-1.9.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.0/junit-platform-suite-commons-1.9.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.0/junit-platform-launcher-1.9.0.jar:/Users/mr932/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.0/junit-jupiter-5.9.0.jar:/Users/mr932/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/Users/mr932/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar:/Users/mr932/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Ho_Chi_Minh"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="VN"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mr932/Evizi/Tests/hellocucumber/target/surefire/surefirebooter-20220923155017814_3.jar /Users/mr932/Evizi/Tests/hellocucumber/target/surefire 2022-09-23T15-50-17_113-jvmRun1 surefire-20220923155017814_1tmp surefire_0-20220923155017814_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/mr932/Evizi/Tests/hellocucumber/target/test-classes:/Users/mr932/Evizi/Tests/hellocucumber/target/classes:/Users/mr932/.m2/repository/io/cucumber/cucumber-java/7.5.0/cucumber-java-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/cucumber-core/7.5.0/cucumber-core-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/cucumber-gherkin/7.5.0/cucumber-gherkin-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.5.0/cucumber-gherkin-messages-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/mr932/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/mr932/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/mr932/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/mr932/.m2/repository/io/cucumber/datatable/7.5.0/datatable-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/cucumber-plugin/7.5.0/cucumber-plugin-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/docstring/7.5.0/docstring-7.5.0.jar:/Users/mr932/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/Users/mr932/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/mr932/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/mr932/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.5.0/cucumber-junit-platform-engine-7.5.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-engine/1.9.0/junit-platform-engine-1.9.0.jar:/Users/mr932/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-commons/1.9.0/junit-platform-commons-1.9.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-suite/1.9.0/junit-platform-suite-1.9.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-suite-api/1.9.0/junit-platform-suite-api-1.9.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.9.0/junit-platform-suite-engine-1.9.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.9.0/junit-platform-suite-commons-1.9.0.jar:/Users/mr932/.m2/repository/org/junit/platform/junit-platform-launcher/1.9.0/junit-platform-launcher-1.9.0.jar:/Users/mr932/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.0/junit-jupiter-5.9.0.jar:/Users/mr932/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.0/junit-jupiter-api-5.9.0.jar:/Users/mr932/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.0/junit-jupiter-params-5.9.0.jar:/Users/mr932/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.0/junit-jupiter-engine-5.9.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mr932"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mr932/Evizi/Tests/hellocucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/mr932/Evizi/Tests/hellocucumber/target/surefire/surefirebooter-20220923155017814_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+1"/>
+    <property name="user.name" value="mr932"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.5.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/mr932/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/tq/qcz5yys13g1b1g9771yzh2rc0000gp/T/"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/mr932/Evizi/Tests/hellocucumber"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/mr932/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17.0.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="The example" classname="An example" time="0.097">
+    <system-out><![CDATA[
+Scenario: The example                       &amp#27;[90m# hellocucumber/example.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man example scenario&amp#27;[0m                 &amp#27;[90m# hellocucumber.StepDefinitions.anExampleScenario()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mall step definitions are implemented&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.allStepDefinitionsAreImplemented()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe scenario passes&amp#27;[0m                  &amp#27;[90m# hellocucumber.StepDefinitions.theScenarioPasses()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Scenario" classname="Is it Friday yet?" time="0.016">
+    <system-out><![CDATA[
+Scenario:                              &amp#27;[90m# hellocucumber/is_it_friday_yet.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mToday is Sunday&amp#27;[0m                &amp#27;[90m# hellocucumber.StepDefinitions.today_is_sunday()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI ask when when it's Friday yet&amp#27;[0m &amp#27;[90m# hellocucumber.StepDefinitions.i_ask_when_when_it_s_friday_yet()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nope"&amp#27;[0m         &amp#27;[90m# hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
