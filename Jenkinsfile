@@ -39,7 +39,7 @@ pipeline{
 
     post {
         always {
-            publishHTML (target: REPORTS_TARGET)
+            publishHTML (target: ${REPORTS_TARGET})
         }
     }
 
