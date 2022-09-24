@@ -1,25 +1,23 @@
 pipeline{
 
     agent any
-
 //     environment {
 //     }
 
+    tools {
+        jdk 'java-1.8.0-openjdk'
+        maven 'maven-3.8.6'
+    }
+
     stages {
-
         stage ('Compile Stage') {
-
             steps {
-                docker.image('maven:3.3.3-jdk-8').inside {
-                    sh 'mvn clean install'
-                }
+                sh 'mvn clean install'
             }
         }
     stage ('Test Stage') {
             steps {
-                docker.image('maven:3.3.3-jdk-8').inside {
-                    sh 'mvn test'
-                }
+                sh 'mvn test'
             }
         }
 
