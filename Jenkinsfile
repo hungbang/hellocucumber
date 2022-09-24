@@ -10,14 +10,14 @@ pipeline{
         stage ('Compile Stage') {
 
             steps {
-                withMaven() {
+                docker.image('maven:3.8.6-jdk-8-slim') {
                     sh 'mvn clean install'
                 }
             }
         }
     stage ('Test Stage') {
             steps {
-                withMaven() {
+                docker.image('maven:3.8.6-jdk-8-slim') {
                     sh 'mvn test'
                 }
             }
