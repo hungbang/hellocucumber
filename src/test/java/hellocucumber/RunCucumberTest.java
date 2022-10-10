@@ -1,6 +1,5 @@
 package hellocucumber;
 
-import io.cucumber.junit.CucumberOptions;
 import org.junit.platform.suite.api.ConfigurationParameter;
 import org.junit.platform.suite.api.ConfigurationParameters;
 import org.junit.platform.suite.api.IncludeEngines;

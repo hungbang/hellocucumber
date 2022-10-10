@@ -21,13 +21,13 @@ pipeline{
 
     stages {
 
-        stage ('Compile Stage') {
-            steps {
-                container('maven') {
-                    sh 'mvn clean install'
-                }
-            }
-        }
+//         stage ('Compile Stage') {
+//             steps {
+//                 container('maven') {
+//                     sh 'mvn clean install'
+//                 }
+//             }
+//         }
         stage ('Test Stage') {
             steps {
                container('maven') {
