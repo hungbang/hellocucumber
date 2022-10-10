@@ -51,7 +51,7 @@ pipeline{
     post {
         always {
             publishHTML (target: [
-            reportDir: 'test-output/extent-reports', reportFiles: '*.html', reportLink: 'Extent Reports'
+            reportDir: 'test-output/extent-reports', reportFiles: '*.html', reportName: 'Extent Reports'
             ])
         }
     }
