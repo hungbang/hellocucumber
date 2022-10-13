@@ -20,14 +20,6 @@ pipeline{
       }
 
     stages {
-
-//         stage ('Compile Stage') {
-//             steps {
-//                 container('maven') {
-//                     sh 'mvn clean install'
-//                 }
-//             }
-//         }
         stage ('Test Stage') {
             steps {
                container('maven') {
@@ -37,23 +29,15 @@ pipeline{
         }
 
 
-        stage ('Cucumber Reports') {
+        stage ('Generate HTML Reports') {
             steps {
                 cucumber buildStatus: "UNSTABLE",
-                    fileIncludePattern: "**/cucumber.json",
+                    reportTitle: 'Cucumber report',
+                    fileIncludePattern: "**/*.json",
                     jsonReportDirectory: 'target'
             }
 
         }
 
     }
-
-    post {
-        always {
-            publishHTML (target: [
-            reportDir: 'test-output/extent-reports', reportFiles: '*.html', reportName: 'Extent Reports'
-            ])
-        }
-    }
-
 }
